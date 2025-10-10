@@ -43,8 +43,8 @@ public class SecondDegreeEquation {
                 return;
             }
             else{
-                double res1 = (-b + Math.sqrt(delta)) / 2;
-                double res2 = (-b - Math.sqrt(delta)) / 2;
+                double res1 = (-b + Math.sqrt(delta)) / (2*a);
+                double res2 = (-b - Math.sqrt(delta)) / (2*a);
                 JOptionPane.showMessageDialog(null, "First Solution: " + res1 + "\n"+ "Second Solution: " + res2 + "\n", "Results", JOptionPane.INFORMATION_MESSAGE);
                 return;
             }
